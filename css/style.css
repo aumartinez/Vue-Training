@@ -7,7 +7,22 @@ body {
   font-size: 18px;
 }
 
-.container {
-  max-width: 960px;
+.padd-top {
+  padding-top: 45px;
+}
+
+.col-center {
   margin: 0 auto;
+}
+
+.removed {
+  color: #ccc;
+}
+
+.removed label {
+  text-decoration: line-through;
+}
+
+ul li {
+  list-style-type: none;
 }
