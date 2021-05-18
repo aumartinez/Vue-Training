@@ -79,6 +79,12 @@ new Vue({
         this.second = 59;
         return;
       }
+      
+      if (this.second == 0 && this.minute == 0) {
+        this.state = STATES.STOPPED;
+        this._state();
+        clearInterval(this.interval);
+      }
     },
     _state: function() {
       this.pomodoroState = this.pomodoroState === POMODORO_STATES.WORK ? POMODORO_STATES.REST : POMODORO_STATES.WORK;
