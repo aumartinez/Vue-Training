@@ -2,7 +2,6 @@ const POMODORO_STATES = {
   WORK: 'Work',
   REST: 'Rest',
   IDLE: 'Waiting to start',
-  RESUMED: 'Resumed',
 };
 
 const STATES = {
