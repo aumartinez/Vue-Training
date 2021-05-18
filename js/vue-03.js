@@ -1,6 +1,6 @@
 const POMODORO_STATES = {
-  WORK: 'Work',
-  REST: 'Rest',
+  WORK: 'Working',
+  REST: 'Resting',
   IDLE: 'Waiting to start',
 };
 
@@ -21,7 +21,6 @@ new Vue({
     minute: WORKING_TIME_LENGTH_IN_MINUTES,
     second: 0,
     pomodoroState: POMODORO_STATES.IDLE,
-    timestamp: 0,
   },
   computed: {
     title: function(){
@@ -29,7 +28,7 @@ new Vue({
         return this.pomodoroState;
       }
       else {
-        return this.pomodoroState === POMODORO_STATES.REST ? 'Resting' : 'Working';  
+        return this.pomodoroState === POMODORO_STATES.REST ? POMODORO_STATES.REST : POMODORO_STATES.WORK;  
       }
     },
     min: function() {
@@ -54,7 +53,7 @@ new Vue({
       this.state = STATES.STARTED;
       this._tick();
       if (this.pomodoroState === POMODORO_STATES.IDLE) {
-        this._state();  
+        this.pomodoroState = POMODORO_STATES.WORK; 
       }
       this.interval = setInterval(this._tick, 1000);
     },
