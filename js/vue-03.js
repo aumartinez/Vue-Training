@@ -12,7 +12,7 @@ const STATES = {
 }
 
 const WORKING_TIME_LENGTH_IN_MINUTES = 25;
-const RESTING_TIME_LENGTH_IN_MINUTES = 5;
+const RESTING_TIME_LENGTH_IN_MINUTES = 1;
 
 new Vue({
   el: '#app',
@@ -51,10 +51,16 @@ new Vue({
   methods: {
     start: function() {
       this.state = STATES.STARTED;
-      this._tick();
+      
       if (this.pomodoroState === POMODORO_STATES.IDLE) {
         this.pomodoroState = POMODORO_STATES.WORK; 
       }
+      
+      if (this.minute == 0 && this.second == 0) {
+          this._state();
+      }
+      
+      this._tick();
       this.interval = setInterval(this._tick, 1000);
     },
     pause: function() {
@@ -81,7 +87,6 @@ new Vue({
       
       if (this.second == 0 && this.minute == 0) {
         this.state = STATES.STOPPED;
-        this._state();
         clearInterval(this.interval);
       }
     },
