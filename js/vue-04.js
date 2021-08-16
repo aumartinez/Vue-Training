@@ -127,7 +127,7 @@ new Vue({
                   .then(function(data){
                     return data[0].url;
                   });
-      
+                        
         let getImg = () => {
           res.then((result) => {
             this.catSrc = result;
