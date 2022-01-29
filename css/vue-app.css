@@ -1,5 +1,9 @@
 /* Vue app CSS */
 
+h2 {
+  margin-top: 2em;
+}
+
 .section {
   max-width: 600px;
   margin: auto;
