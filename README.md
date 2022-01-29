@@ -22,3 +22,7 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/pomodoro-timer-cat.html
 https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app.html
 
 - A training demo app using Vue
+
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app.html
+
+- Rendering template list using Vue for binding method
