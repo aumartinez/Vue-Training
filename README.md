@@ -23,6 +23,6 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app.html
 
 - A training demo app using Vue
 
-https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app.html
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-01.html
 
 - Rendering template list using Vue for binding method
