@@ -30,3 +30,7 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-01.html
 https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-02.html
 
 - Rendering template sorted list returned from sort method applied to submissions object array
+
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-03.html
+
+- Rendering template sorted list returned from sort method applied to submissions object array, now adding to add votes to each item
