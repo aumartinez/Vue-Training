@@ -30,8 +30,8 @@ const submissions = [
   },
   {
   id: 4,
-  title: 'Blue Pail',
-  description: 'Blue Pail content text.',
+  title: 'Pink Pail',
+  description: 'Pink Pail content text.',
   url: '#',
   votes: 18,
   avatar: './img/avatars/avatar-04.png',
