@@ -16,3 +16,9 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/pomodoro-timer.html
 https://accedo-gps.000webhostapp.com/demo/vue-training/pomodoro-timer-cat.html
 
 - This one makes a call to API that returns a cat image to be displayed during the resting time
+
+**Vue UpVote app**
+
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app.html
+
+- A training demo app using Vue
