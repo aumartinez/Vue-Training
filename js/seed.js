@@ -28,4 +28,13 @@ const submissions = [
   avatar: './img/avatars/avatar-03.png',
   submissionImage: './img/submissions/image-blue.png',
   },
+  {
+  id: 4,
+  title: 'Blue Pail',
+  description: 'Blue Pail content text.',
+  url: '#',
+  votes: 18,
+  avatar: './img/avatars/avatar-04.png',
+  submissionImage: './img/submissions/image-pink.png',
+  },
 ];
