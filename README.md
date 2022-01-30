@@ -38,3 +38,7 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-03.html
 https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-04.html
 
 - Adding support to bind a class on a condition, on max votes, item will change background color
+
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-05.html
+
+- Played around with support for an animation
