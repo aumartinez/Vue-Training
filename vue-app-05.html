@@ -16,6 +16,7 @@
         v-bind:key="item.id"
         v-bind:class="{
               'top-bg': item.votes === maxvote(),
+              'change': item.change
               }"
         class="media">
           <figure class="media-left">
@@ -42,7 +43,7 @@
           </div>
           <div class="media-right">
             <span 
-            v-on:click="upvote(item.id)"
+            v-on:click="upvote(item.id), orderchange(item.id)"
             class="icon is-small">
             <i class="fa fa-chevron-up"></i>
             <strong class="has-text-info">{{item.votes}}</strong>

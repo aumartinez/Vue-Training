@@ -12,6 +12,10 @@ h2 {
   padding: 10px;
 }
 
+.media:not(.top-bg) {
+  background-color: #fff;
+}
+
 .media > .media-right {
   margin-right: 10px;
 }
@@ -20,7 +24,29 @@ h2 {
   cursor: pointer;
 }
 
+.media.change {
+  position: relative;
+  animation: move 2s;
+  z-index: 1;
+}
+
 .section {
   max-width: 600px;
   margin: auto;
+}
+
+.move-enter-active, .move-leave-active {
+  transition: opacity .5s;
+}
+.move-enter, .move-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(100%);    
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
