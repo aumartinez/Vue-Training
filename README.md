@@ -42,3 +42,7 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-04.html
 https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-05.html
 
 - Played around with support for an animation
+
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-06.html
+
+- Completed final result using templated components
