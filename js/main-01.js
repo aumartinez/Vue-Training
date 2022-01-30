@@ -13,13 +13,13 @@ new Vue({
       });
     }
   },  
-  components: {
-    'submission-component': submissionComponent,
-  },
   methods: {
     maxvote: function(){     
      return Math.max(...this.submissions.map(o => o.votes));     
     },
+  },
+  components: {
+    'submission-component': submissionComponent,
   }
 });
          

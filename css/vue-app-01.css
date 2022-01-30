@@ -1,0 +1,50 @@
+/* Vue app CSS */
+
+h2 {
+  margin-top: 2em;
+}
+
+.top-bg {
+  background-color: #eaf6fb;
+}
+
+.media {
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.media:not(.top-bg) {
+  background-color: #fff;
+}
+
+.wrapper > .media-right {
+  margin-right: 10px;
+}
+
+.media-right:hover {
+  cursor: pointer;
+}
+
+.media.change {
+  position: relative;
+  animation: move 2s;
+  z-index: 1;
+}
+
+.section {
+  max-width: 600px;
+  margin: auto;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(100%);    
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
