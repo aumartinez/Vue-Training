@@ -35,9 +35,6 @@ new Vue({
         let prevVote = this.submissions[prevIndex].votes;
         let currVote = this.submissions[currentIndex].votes;
         
-        console.log("curr:"+currVote);
-        console.log("prev:"+prevVote);        
-        
         if (currVote > prevVote) { 
           this.submissions[currentIndex].change = true;          
         }
