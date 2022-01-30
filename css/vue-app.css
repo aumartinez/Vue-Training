@@ -35,13 +35,6 @@ h2 {
   margin: auto;
 }
 
-.move-enter-active, .move-leave-active {
-  transition: opacity .5s;
-}
-.move-enter, .move-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-}
-
 @keyframes move {
   0% {
     transform: translateY(100%);    
