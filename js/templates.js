@@ -11,7 +11,9 @@ const submissionComponent = {
         <div class="content">
           <p>
             <strong>
-              <a href="#" class="has-text-info">{{item.title}}</a>
+              <a 
+              v-bind:href="item.url"
+              class="has-text-info">{{item.title}}</a>
               <span class="tag is-small">#{{item.id}}</span>
             </strong>
             <br />
