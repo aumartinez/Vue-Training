@@ -49,9 +49,7 @@ const submissionComponent = {
       
       this.submissions.forEach(o => o.change = false);
       
-      if (currentIndex > 0) {
-        const currentIndex = this.submissions.map(i => i.id).indexOf(submissionId);
-        
+      if (currentIndex > 0) {        
         let prevVote = this.submissions[prevIndex].votes;
         let currVote = this.submissions[currentIndex].votes;
         
