@@ -34,3 +34,7 @@ https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-02.html
 https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-03.html
 
 - Rendering template sorted list returned from sort method applied to submissions object array, now adding to add votes to each item
+
+https://accedo-gps.000webhostapp.com/demo/vue-training/vue-app-04.html
+
+- Adding support to bind a class on a condition, on max votes, item will change background color

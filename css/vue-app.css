@@ -4,6 +4,18 @@ h2 {
   margin-top: 2em;
 }
 
+.top-bg {
+  background-color: #eaf6fb;
+}
+
+.media {
+  padding: 10px;
+}
+
+.media > .media-right {
+  margin-right: 10px;
+}
+
 .section {
   max-width: 600px;
   margin: auto;
